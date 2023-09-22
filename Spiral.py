@@ -9,6 +9,7 @@ spiral_turtle = turtle.Turtle()
 spiral_turtle.shape("turtle")
 spiral_turtle.speed(1)  # Set the drawing speed (1 is the slowest)
 
+
 # Function to draw a spiral with thickness and color
 def draw_spiral(num_turns, initial_length, angle_increment):
     length = initial_length
